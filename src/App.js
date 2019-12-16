@@ -1,28 +1,41 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 import MainPage from './components/MainPage'
+import { Menu } from 'semantic-ui-react'
+import {Route, Switch, Link, Redirect} from 'react-router-dom';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-      <MainPage />
-    </div>
-  );
+
+class App extends React.Component {
+  constructor(){
+    super()
+
+    this.state = {
+      activeItem: ''
+    }
+  }
+
+  handleItemClick = (e, { name }) => this.setState({ activeItem: name })
+
+  render(){
+    const { activeItem } = this.state
+
+    return (
+      <React.Fragment>
+        <Menu stackable>
+          <Link to='/home'>
+            <Menu.Item name='home' active={activeItem === 'home'} onClick={this.handleItemClick}>
+               Home
+             </Menu.Item>
+           </Link>
+        </Menu>
+      <div className="App">
+        <switch>
+        <Route exact path="/" render={() => <MainPage />} />
+        </switch>
+      </div>
+      </React.Fragment>
+    )
+  }
 }
 
 export default App;
