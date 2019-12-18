@@ -4,7 +4,7 @@ import MainPage from './components/MainPage'
 import LibraryPage from './components/LibraryPage'
 import AboutPage from './components/AboutPage'
 import ContactPage from './components/ContactPage'
-import { Menu } from 'semantic-ui-react'
+import { Menu, Icon} from 'semantic-ui-react'
 import {Route, Switch, Link, Redirect} from 'react-router-dom';
 
 
@@ -35,7 +35,7 @@ class App extends React.Component {
             <Menu.Item name='about' active={activeItem === 'about'} onClick={this.handleItemClick}> About </Menu.Item>
           </Link>
           <Link to='/contact'>
-            <Menu.Item name='contact' active={activeItem === 'contact'} onClick={this.handleItemClick}> Contact </Menu.Item>
+            <Menu.Item name='contact' active={activeItem === 'contact'} onClick={this.handleItemClick}><Icon link name='address book outline'/> Contact </Menu.Item>
           </Link>
         </Menu>
       <div className="App">
