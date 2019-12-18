@@ -2,7 +2,6 @@ import React from 'react';
 import './App.css';
 import MainPage from './components/MainPage'
 import LibraryPage from './components/LibraryPage'
-import AboutPage from './components/AboutPage'
 import ContactPage from './components/ContactPage'
 import { Menu, Icon} from 'semantic-ui-react'
 import {Route, Switch, Link, Redirect} from 'react-router-dom';
