@@ -31,9 +31,6 @@ class App extends React.Component {
           <Link to='/library'>
             <Menu.Item name='library' active={activeItem === 'library'} onClick={this.handleItemClick}> Library </Menu.Item>
           </Link>
-          <Link to='/about'>
-            <Menu.Item name='about' active={activeItem === 'about'} onClick={this.handleItemClick}> About </Menu.Item>
-          </Link>
           <Link to='/contact'>
             <Menu.Item name='contact' active={activeItem === 'contact'} onClick={this.handleItemClick}><Icon link name='address book outline'/> Contact </Menu.Item>
           </Link>
@@ -43,7 +40,6 @@ class App extends React.Component {
         <Route exact path="/" render={() => <MainPage />} />
         <Route exact path="/home" render={() => <MainPage />} />
         <Route exact path="/library" render={() => <LibraryPage />} />
-        <Route exact path="/about" render={() => <AboutPage />} />
         <Route exact path="/contact" render={() => <ContactPage />} />
         </switch>
       </div>
