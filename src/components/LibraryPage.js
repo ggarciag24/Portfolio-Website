@@ -23,8 +23,9 @@ class LibraryPage extends React.Component {
             <Item.Extra>Backend: Rails | Frontend: React</Item.Extra>
           </Item.Content>
         </Item>
+        <Divider />
         <Item>
-          <Item.Image size='small' src='https://www.fillmurray.com/200/300' />
+          <Item.Image size='medium' src={require('../appimgs/joustimg.png')} />
 
           <Item.Content>
             <Item.Header as='a'>Joust</Item.Header>
