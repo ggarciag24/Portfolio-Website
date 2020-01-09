@@ -43,7 +43,7 @@ class LibraryPage extends React.Component {
         <Grid.Row>
           <Grid.Column>
             <Card>
-              <Image source={require('../firstblog.png')} wrapped ui={false} />
+              <Image src={require('../blogimgs/firstblog.png')} wrapped ui={false} />
               <Card.Content>
                 <Card.Header>What are Enumerables ?</Card.Header>
                 <Card.Meta>
@@ -60,7 +60,7 @@ class LibraryPage extends React.Component {
           </Grid.Column>
           <Grid.Column>
             <Card>
-              <Image src='https://www.fillmurray.com/200/200' wrapped ui={false} />
+              <Image src={require('../blogimgs/secondblog.png')} wrapped ui={false} />
               <Card.Content>
                 <Card.Header>Ruby on Rails Forms: #collection_select</Card.Header>
                 <Card.Meta>
@@ -77,14 +77,14 @@ class LibraryPage extends React.Component {
           </Grid.Column>
           <Grid.Column>
             <Card>
-              <Image src='https://www.fillmurray.com/200/200' wrapped ui={false} />
+              <Image src={require('../blogimgs/thirdblog.png')} wrapped ui={false} />
               <Card.Content>
                 <Card.Header>Hand & Wrist Exercises for keyboard users</Card.Header>
                 <Card.Meta>
                   <span className='date'>Published on Sep 27, 2019 </span>
                 </Card.Meta>
                 <Card.Description>
-                  *************
+                  Here are some helpful exrcises for all day computer users.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -96,7 +96,7 @@ class LibraryPage extends React.Component {
         <Grid.Row>
           <Grid.Column>
             <Card>
-              <Image src='https://www.fillmurray.com/200/200' wrapped ui={false} />
+              <Image src={require('../blogimgs/fourthblog.png')} wrapped ui={false} />
               <Card.Content>
                 <Card.Header>Class components vs Functional components</Card.Header>
                 <Card.Meta>
@@ -113,7 +113,7 @@ class LibraryPage extends React.Component {
           </Grid.Column>
           <Grid.Column>
             <Card>
-              <Image src='https://www.fillmurray.com/200/200' wrapped ui={false} />
+              <Image src={require('../blogimgs/fifthblog.png')} wrapped ui={false} />
               <Card.Content>
                 <Card.Header>What problem React.Fragments solves and it’s syntax</Card.Header>
                 <Card.Meta>
