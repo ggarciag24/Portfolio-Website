@@ -103,7 +103,7 @@ class LibraryPage extends React.Component {
                   <span className='date'>Published on Oct 10, 2019 </span>
                 </Card.Meta>
                 <Card.Description>
-                  ******************
+                  This blog explains the similarities and differences between functional and class components.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
@@ -120,7 +120,7 @@ class LibraryPage extends React.Component {
                   <span className='date'>Published on Oct 31, 2019 </span>
                 </Card.Meta>
                 <Card.Description>
-                  ****************
+                  This blog explains why and how React Fragments are useful and helpful.
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
