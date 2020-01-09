@@ -12,7 +12,7 @@ class LibraryPage extends React.Component {
       <h3> Applications </h3>
       <Item.Group>
         <Item>
-          <Item.Image size='small' src='https://www.fillmurray.com/200/300' />
+          <Item.Image size='medium' src={require('../appimgs/communitylinkimg.png')} />
 
           <Item.Content>
             <Item.Header as='a'>Community-Link</Item.Header>
