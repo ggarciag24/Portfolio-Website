@@ -43,7 +43,7 @@ class LibraryPage extends React.Component {
         <Grid.Row>
           <Grid.Column>
             <Card>
-              <Image source={require('../public/firstblog.png')} wrapped ui={false} />
+              <Image source={require('../firstblog.png')} wrapped ui={false} />
               <Card.Content>
                 <Card.Header>What are Enumerables ?</Card.Header>
                 <Card.Meta>
@@ -54,7 +54,7 @@ class LibraryPage extends React.Component {
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
-              <Item content={<a href='http://www.semantic-ui.com'><Icon name='linkify' /> Blog Link</a>} />
+              <Item content={<a href='https://medium.com/@ggermanji24/what-are-enumerables-546e8d2509cf'><Icon name='linkify' /> Blog Link</a>} />
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -71,7 +71,7 @@ class LibraryPage extends React.Component {
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
-              <Item content={<a href='http://www.semantic-ui.com'><Icon name='linkify' /> Blog Link</a>} />
+              <Item content={<a href='https://medium.com/@ggermanji24/ruby-on-rails-forms-collection-select-7ba92ce09a61'><Icon name='linkify' /> Blog Link</a>} />
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -88,7 +88,7 @@ class LibraryPage extends React.Component {
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
-              <Item content={<a href='http://www.semantic-ui.com'><Icon name='linkify' /> Blog Link</a>} />
+              <Item content={<a href='https://medium.com/@ggermanji24/hand-wrist-exercises-for-keyboard-users-e4d353dc20ec'><Icon name='linkify' /> Blog Link</a>} />
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -107,7 +107,7 @@ class LibraryPage extends React.Component {
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
-              <Item content={<a href='http://www.semantic-ui.com'><Icon name='linkify' /> Blog Link</a>} />
+              <Item content={<a href='https://medium.com/@ggermanji24/class-components-vs-functional-components-cd37f9d0ca66'><Icon name='linkify' /> Blog Link</a>} />
               </Card.Content>
             </Card>
           </Grid.Column>
@@ -124,7 +124,7 @@ class LibraryPage extends React.Component {
                 </Card.Description>
               </Card.Content>
               <Card.Content extra>
-              <Item content={<a href='http://www.semantic-ui.com'><Icon name='linkify' /> Blog Link</a>} />
+              <Item content={<a href='https://medium.com/@ggermanji24/what-problem-react-fragments-solves-and-its-syntax-561fcc47d2ef'><Icon name='linkify' /> Blog Link</a>} />
               </Card.Content>
             </Card>
           </Grid.Column>
